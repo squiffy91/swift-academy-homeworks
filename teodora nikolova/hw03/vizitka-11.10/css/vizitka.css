@@ -125,3 +125,15 @@ span{
 .email{
     padding-left: 25px;
 }
+nav ul li:hover{
+    width: 150px;
+    height: 40px;
+    background-color: darkred;
+    border: 2px solid  darkred;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+
+}
