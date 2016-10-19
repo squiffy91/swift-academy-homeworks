@@ -47,10 +47,6 @@ div {
     margin-left: 0px;
 }
 
-#italic {
-    font-style: italic;
-}
-
 #right {
     position: absolute;
     right: 300px;
