@@ -61,3 +61,13 @@ td {
 h1 {
     background-color: #FFE4E1
 }
+div{
+    text-align: right;
+}
+h1, h2, h3  {
+  padding: 0.6em;
+}
+
+p {
+  padding: 4px 0;
+}
