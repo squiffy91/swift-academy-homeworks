@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 main {
     background-color: #965454;
     width: 800px;
@@ -63,4 +67,27 @@ footer {
     padding: 50px;
     text-align: center;
     border-top: 1px solid #ccc;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        max-width: 100%;
+    }
+    
+    .btn {
+        display: block;
+        width: 100%;
+        border-radius: 0px;
+        text-align: center;
+    }
+    .btn a {
+        border-radius: 0px;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        font-size: 18px;
+        height: auto;
+        padding: 15px;
+    }
 }
