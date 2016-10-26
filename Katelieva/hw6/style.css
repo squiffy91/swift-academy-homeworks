@@ -1,4 +1,5 @@
     body {
+        font-family: Helvetica, sans-serif;
         border-style: darkred;
     }
     
@@ -16,7 +17,7 @@
     
     hr {
         margin-top: 40px;
-        width: 800px;
+        max-width: 100%;
     }
     
     main {
