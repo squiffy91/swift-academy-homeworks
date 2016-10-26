@@ -1,0 +1,50 @@
+        main {
+            border-style: dashed;
+            box-sizing: 800px;
+            padding: 20px;
+            background-color: darkorange;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+        
+        h1 {
+            border-style: dashed;
+            background-color: darkorange;
+            padding: 30px;
+        }
+        
+        h2 {
+            border-style: dashed;
+            padding-bottom: 1000px;
+        }
+        
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .btn-red {
+            background-color: red;
+            border: 10px dashed;
+        }
+        
+        .btn-green {
+            background-color: green;
+            border: dashed 10px;
+        }
+        
+        .btn-golden {
+            background-color: darkgoldenrod;
+            border: dashed 10px;
+        }
+        
+        .btn-blue {
+            background-color: blue;
+            border: dashed 10px;
+        }
+        
+        nav {
+            text-decoration: none;
+        }
