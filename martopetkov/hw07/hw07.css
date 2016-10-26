@@ -1,0 +1,27 @@
+div {
+    padding: 10px;
+    background-color: skyblue;
+    
+}
+
+form  {
+    display:block;
+    margin: 0 auto;
+    width: 300px;
+        
+}
+
+textarea {
+    width: 270px;
+    height: 70px;
+}
+
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
