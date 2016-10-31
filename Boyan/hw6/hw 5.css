@@ -40,3 +40,8 @@ hr {
     width: 900px;
     margin: auto;
 }
+
+button {
+    margin: 0;
+    border: solid 4px blue;
+}
