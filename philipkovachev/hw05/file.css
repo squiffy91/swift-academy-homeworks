@@ -1,7 +1,8 @@
 main {
     width: 800px;
     margin: 0 auto;
-    font-size: 1, 5em;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 header {
@@ -11,6 +12,8 @@ header {
     height: 80px;
     background-color: #61c7ed;
     padding: 10px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 nav {
@@ -21,6 +24,8 @@ nav {
     border-color: green;
     height: 800px;
     padding: 25px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -41,8 +46,7 @@ img {
 }
 
 * {
+    box-sizing: border-box;
     max-height: 100%;
     max-width: 100%;
-    box-sizing: border-box;
-    font-size: 1, 5em;
 }
