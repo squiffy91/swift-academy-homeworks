@@ -26,15 +26,17 @@
         background-color: red;
         margin: 8px;
         flex-grow: 2;
-        color: aliceblue;
+        color: white;
+        font-family: serif;
         text-align: center;
-        font-size: 1;
+        font-size: 2em;
     }
     
     .h4 {
         background-color: blue;
         margin: 8px;
         flex-grow: 1;
+        flex-flow: row row-reverse;
     }
     
     .fb1 {
